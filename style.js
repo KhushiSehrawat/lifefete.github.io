@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded", function () { const payNowButton = document.getElementById("pay-now-button"); if (payNowButton) { payNowButton.addEventListener("click", function () { window.location.href = "C:\Users\ABHISHEK SEHRAWAT\OneDrive\Desktop\confirm.html"; // Redirect to the confirmation page }); } });

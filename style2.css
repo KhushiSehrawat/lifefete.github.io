@@ -1,0 +1,8 @@
+body { background: linear-gradient(to bottom, pink, purple); font-family: Arial, sans-serif; } 
+form { background-color: rgba(255, 255, 255, 0.8); max-width: 750px; margin: 0 auto; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); transition: background-color 0.3s; }
+ h1, h2 { color: rgb(175, 27, 101); text-align: center; font-size: 28px; transition: color 0.3s; position: relative; }
+  h1:hover, h2:hover { color: rgb(146, 6, 29); }
+   h1::before, h2::before { content: ""; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 20px; height: 20px; background-color: rgba(255, 255, 255, 0.5); border-radius: 50%;  }
+   label[for]::after { content: " *"; color: red; } input[type="text"], input[type="email"], input[type="number"], input[type="date"], input[type="password"], textarea, select { width: 100%; padding: 10px; margin-bottom: 15px; border: 2px solid purple; border-radius: 5px; background-color: pink; color: rgb(160, 43, 43); font-size: 16px; } input[type="radio"], input[type="checkbox"] { margin-right: 5px; } 
+    input[type="submit"] { background-color: purple; color: rgb(163, 42, 42); padding: 12px 20px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; font-size: 18px; transition: background-color 0.3s; }
+     input[type="submit"]:hover { background-color: pink; color: purple; }

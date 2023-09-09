@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <link rel="stylesheet" href="C:\Users\ABHISHEK SEHRAWAT\OneDrive\Desktop\style2.css">
+</head>
+<body>
+    <form>
+        <h1>Payment Form </h1>
+        <p> required fields are followed by * </p>
+        <h2> Contact Information</h2>
+        <p>Name* : <input type="text" name="Name" required></p>
+        <fieldset>
+            <legend> Gender* </legend>
+            <p>
+                Male<input type="radio" name="gender" id="male" required >
+                Female<input type="radio" name="gender" id="female" required>
+                Others<input type="radio" name="gender" id="others" required>
+            </p>
+        </fieldset>
+        <p>
+            Address:<textarea name="Address" id="address" cols="100" rows="8"></textarea></p>
+            <p> Email*: <input type="email" name="email" id="email" required>
+            </p>
+<p> Pincode*: <input type="number" name="pincode" id="pincode" required > </p>
+<h2>Payment Information</h2>
+<p> Card type *:
+    <select name="card-type" id="card-type" required>
+        <option value="">---select card---</option>
+        <option value="visa">Visa </option>
+        <option value="Rupay">Rupay </option>
+        <option value="MasterCard">MasterCard</option>
+    </select>
+</p>
+<p>
+    Card Number*<input type="number" name="card-number" id="card-number" >
+</p>
+<p>
+    Expiration Date*: <input type="date" name="exp-date" id="exp-date" required ></p>
+    <p> CVV*:<input type="password" name="cvv" id="cvv" required></p>
+<!--<input type="submit" value="Pay Now" id="pay-now-button">
+<script src="style.js"></script>-->
+<a href="C:\Users\ABHISHEK SEHRAWAT\OneDrive\Desktop\confirm.html" style="display:inline-block;
+padding: 10px 20px; background-color: pink; color: rgb(161, 39, 96); text-decoration: none; border: 2px solid purple; border-radius: 5px;">Pay Now</a>
+    </form>
+</body>
+</html>
+
+</body>
+</html>
